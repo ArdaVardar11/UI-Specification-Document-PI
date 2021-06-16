@@ -1,0 +1,54 @@
+User Interface Specification Document
+=======================================
+User Managment Screen
+-----------------------------------------------
+Objective
+========================================
+This user interface specification document is created for the given user managment screen using markdown syntax.
+
+---
+Description of The Inteface
+========================================
+Top Bar 
+-------------------------------------------------
+1.At the top there will be a bar containing a button and a checkbox on the left and a button on the right edge.
+2.On the left side the button will have a dark blue color with a white text "+New User".
+3.The checkbox will have a text "Hide Disable User" and comes with standart checked. 
+4.The rightside of the bar will have a button with a lighter blue color containing a text "Save User
+5.Lastly, the bar itself will have a light grey background color.
+
+---
+* Below the top bar tehre will be a section divided by two columns one of them is used for listview section the left  one is used for new user create section.
+---
+
+Listview Section
+=========================================
+1. In this section we have a complete listview which contains database like features and there are 4 list columns which are ID, User Name,  Email, Enable respectively.
+2.This column names have dark blue background and white text.
+3.Every columns' righthandside has white up and down arrows and sorting options icon.
+4.Every items in the list have lightgrey background and Black text.
+
+---
+
+New User Create Section
+=========================================
+1.At the top of this section we have a bar which has left aligned text of black "New User" and lightgrey background.
+2.At the bottom we have four form elements with textbox inputs and one  drop-down combo box and one checkbox
+3. The four form elements with textbox inputs will have labels "Username :","Display Name :", "Phone :", "Email :" respectively top to bottom.
+4.The Combobox label is "User Roles :" and in the combobox general text is "Select user roles...", Combobox selections are "Guest","Admin","SuperAdmin".
+5.The checkbox label is "Enabled :" and comes with standart unchecked.
+
+---
+---
+
+The Behavior/Functionallity of the Page.
+=====================================
+1.At the beginning only the top bar and  the Listview section will appear except "Save User" button at the top right side of the top bar .
+2.When the user clicks the "+New User" button the new user create section will appear and it will allow user to enter the required information.
+3.After the user entered all the required information, the save user appear in the top bar and  by clicking this button the information transfer to the database if the Enabled checkbox is checked. The information will show up in the  listview section simultaneously.
+4. If a user clicks "New User Button" again after entering information the New user Section will be cleared.
+5.If "Hide Disabled user" box is checked the listview will hide all the user entries which have enabled= false. If user  unchecked this box it will show all entries whether  enabled data is true or false.
+---
+
+
+
